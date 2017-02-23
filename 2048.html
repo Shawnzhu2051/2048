@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shawn's 2048</title>
+	<script type="text/javascript" src="scripts/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="scripts/jquery.cookie.js"></script>
+	<link rel="stylesheet" type="text/css" href="2048style.css">
+</head>
+	<div id='cntr'>
+		<div id='title_bar'>
+			<div id='logo'>2048</div>			
+			<div id='best'>
+				<div id='besttext'>Best</div>
+				<div id='bestnumber'></div>
+			</div>			
+			<div id='score'>
+				<div id='scoretext'>Score</div>
+				<div id='scorenumber'></div>
+			</div>
+			<div class='restart'><span class='restarttext'>New Game</span></div>	
+		</div>	
+		<div id='chessboard'><!--Behind-->
+  			<div id="g00" class="grid"></div>
+  			<div id="g01" class="grid"></div>
+  			<div id="g02" class="grid"></div>
+  			<div id="g03" class="grid"></div>
+  			<div id="g10" class="grid"></div>
+  			<div id="g11" class="grid"></div>
+  			<div id="g12" class="grid"></div>
+  			<div id="g13" class="grid"></div>
+  			<div id="g20" class="grid"></div>
+  			<div id="g21" class="grid"></div>
+  			<div id="g22" class="grid"></div>
+  			<div id="g23" class="grid"></div>
+  			<div id="g30" class="grid"></div>
+  			<div id="g31" class="grid"></div>
+  			<div id="g32" class="grid"></div>
+  			<div id="g33" class="grid"></div>
+		</div>
+	</div>
+	<div id='gameover'>
+		<div id='gameover_text'>Game Over!</div>
+	</div>
+</body>
+	<script type="text/javascript" src="2048logic.js"></script>
+</html>

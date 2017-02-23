@@ -1,0 +1,163 @@
+*{
+		padding: 0;
+		margin:0;
+	}
+	#cntr{
+		position: absolute;		
+		left: 350px;
+		background: #faf8ef;
+		width: 600px;
+		z-index: 10;
+	}
+	#gameover{
+		background: #fff;
+		opacity: 0;
+		width: 600px;
+		height: 540px;
+		z-index: 100;
+		position: absolute;
+		top: 100px;
+		left: 350px;
+		display: none;
+		transition:all 1s ease-in;
+	}
+	#title_bar{
+		height: 100px;
+		width: 600px;
+	}
+	#logo{
+		float: left;
+		font-size: 60px;
+		color: #776e65;
+		font-weight: 900;
+		font-family: 'Microsoft Yahei';
+		margin-left: 20px;
+	}
+	#score{
+		float: right;
+		height: 100px;
+		width: 100px;
+		background: #bbada0;
+		position: relative;
+		right: 50px;	
+		border-radius: 10px;
+	}
+	#scoretext{
+		font-family: 'Microsoft Yahei';
+		color: #eee4da;
+		font-size: 20px;
+		margin-left:25px; 
+	}
+	#scorenumber{
+		font:Arial, Helvetica, sans-serif;
+    		font-size:50px;
+    		color: #776e65;
+    		font-weight:900;
+    		text-align:center; 
+	}
+	#bestnumber{
+		font:Arial, Helvetica, sans-serif;
+    		font-size:30px;
+    		color: #776e65;
+    		font-weight:900;
+    		text-align:center; 
+	}
+	#best{
+		float: right;
+		height: 100px;
+		width: 100px;
+		background: #bbada0;
+		position: relative;
+		right: 20px;
+		border-radius: 10px;
+	}
+	#besttext{
+		font-family: 'Microsoft Yahei';
+		color: #eee4da;
+		font-size: 20px;
+		margin-left:30px;
+	}
+	.restart{
+		float: right;
+		height: 100px;
+		width: 100px;
+		position: relative;
+		right: 80px;
+		background: #bbada0;
+		border-radius: 10px;
+		cursor: pointer;
+	}
+	.restart:hover,.selected{
+		background: #8f7a66;
+	}
+	.restarttext{
+		font-family: 'Microsoft Yahei';
+		color:  #eee4da;
+		font-weight: bolder;
+		font-size: 35px;
+		float: center;
+	}
+	#chessboard{
+		margin-top: 20px;
+		margin-left: 42px;
+		height: 500px;
+		width: 500px;
+		background:  #bbada0;
+		border-color: #bbada0;
+		border-style: solid;
+		border-width: 5px;
+		border-radius: 10px;
+	}
+	.grid{
+		height: 130px;
+		width: 130px;
+		background: #cdc1b4;
+		border-color: #bbada0;
+		border-style: solid;
+		border-width: 10px;
+		border-radius: 15px;
+		position: absolute;
+	}
+	
+	.number-cell{
+		z-index: 50;
+		border-radius:5px;
+		background: #cdc1b4;
+		position: absolute;
+		font-family:'Microsoft Yahei';
+    	font-size:60px;
+    	line-height: 110px;
+    	color: #776e65;
+    	font-weight:900;
+    	text-align:center;
+    	transition: all  0.2s, ease-in;
+	}
+	
+	#gameover_text{
+		font:Arial, Helvetica, sans-serif;
+    	font-size:60px;
+    	font-weight:900;
+    	text-align:center;
+		color: #776e65;
+		position: absolute;
+		right: 200px;
+		top: 200px;
+		height: 100px;
+		width: 200px;
+	}
+	#g00{left: 45px;top:120px;}
+	#g01{left:170px;top:120px;}
+	#g02{left:295px;top:120px;}
+	#g03{left:420px;top:120px;}
+	#g10{left: 45px;top:245px;}
+	#g11{left:170px;top:245px;}
+	#g12{left:295px;top:245px;}
+	#g13{left:420px;top:245px;}
+	#g20{left: 45px;top:370px;}
+	#g21{left:170px;top:370px;}
+	#g22{left:295px;top:370px;}
+	#g23{left:420px;top:370px;}
+	#g30{left: 45px;top:495px;}
+	#g31{left:170px;top:495px;}
+	#g32{left:295px;top:495px;}
+	#g33{left:420px;top:495px;}
